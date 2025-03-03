@@ -20,7 +20,7 @@ Show understanding of web development techniques, such as:
 
 **Home Page**
 
-Home page will be a sky and a body of water that takes over the entire page. The water will stretch down the page or "go deeper", allowing the user to scroll down. This water will be split up by 3 sections ranging from a light, medium, and dark blue, showing the pond, lake, and ocean creatures. There will be a lable for each section that can be clicked on.
+Home page will be a sky and a body of water that takes over the entire page. The water will stretch down the page or "go deeper", allowing the user to scroll down. This water will be split up by 3 sections ranging from a light, medium, and dark blue, showing the pond, lake, and ocean creatures. There will be a label for each section that can be clicked on.
 
 **Pond, Lake, and Ocean Pages**
 
