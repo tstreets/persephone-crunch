@@ -15,6 +15,7 @@ Show understanding of web development techniques, such as:
 - html
 - css
 - js
+- working with data
 
 ### Core Webpages
 
