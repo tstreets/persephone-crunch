@@ -1,0 +1,127 @@
+ * {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+html,
+body {
+ height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+ margin-bottom: 16px;
+}
+
+#forest1 {
+width: auto;
+height:auto;
+background-image: url('../img/forest1.png');
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+#forest2 {
+    width: auto;
+    height:auto;
+    background-color: darkcyan;
+    }
+    #forest3 {
+        width: auto;
+        height:auto;
+        background-color: slategrey;
+        }
+        #forest4 {
+            width: auto;
+            height:auto;
+            background-color: lightblue;
+            }
+
+            #left,
+            #right {
+                position: absolute;
+                top: 170px;  
+                width: 100px;
+                height: 400px;
+                filter: opacity(60%);
+                cursor: pointer;
+            }
+            
+            #left {
+                left: 50px;
+            }
+            
+            #right {
+                right: 50px;
+            }
+
+body {
+    opacity: 0;
+    transition: opacity 0.8s ease-in-out, background-color 0.8s ease-in-out;
+}
+body.loaded {
+    opacity: 1;
+}
+
+#critterSec {
+    background-color: darksalmon;
+    height: 800px;
+    width: 1000px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+#critterTable {
+    width: 400px;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+#critImg {
+     height: 400px; 
+     float: left;
+     margin-left: 80px;
+     padding-top: 90px;
+}
+
+nav {
+    background-color: honeydew;
+    height: 60px;
+    width: auto;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 12px;
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+}
+nav a:hover {
+    color: blue;
+} 
+
+#click {
+    height: 70px;
+    width: 130px;
+    margin-top: 520px;
+    margin-left: 1080px;
+    cursor: pointer;
+}
+
+#close {
+    text-decoration: none;
+    color: black; 
+}
+#close:hover {
+    color: blue;
+} 

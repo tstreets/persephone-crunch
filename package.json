@@ -1,0 +1,23 @@
+{
+  "name": "persephone-crunch",
+  "version": "1.0.0",
+  "description": "Our topic is Aquatic Cryptids and our website will guide users to the world of Aquatic Cryptids. We will have sections describing various water-based / water natured myth and folklore creatures.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tstreets/persephone-crunch.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tstreets/persephone-crunch/issues"
+  },
+  "homepage": "https://github.com/tstreets/persephone-crunch#readme",
+  "dependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
