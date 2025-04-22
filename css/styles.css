@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+body {
+  background-color: #4a1d6c;
+  padding: 20px 200px;
+  color: white;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 40px;
+
+  list-style: none;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+nav .brand {
+  font-weight: bold;
+  font-size: 20px;
+  margin-right: auto;
+}
+
+.home-header img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#myth-paths {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 40px;
+}
+
+.path-card {
+  background-color: white;
+  color: black;
+  width: 220px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+
+  img {
+    width: 200px;
+  }
+
+  button {
+    padding: 4px;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+}
